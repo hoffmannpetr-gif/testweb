@@ -1,0 +1,115 @@
+* {
+margin: 0px;
+padding: 0px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 18px;
+}
+header {
+height: 100vh;
+width: 100%;
+color: #ffffff;
+background-image: url(lord.avif);
+background-size: cover;             /*roztahující se obrázek při změně rozměrů okna*/
+}
+.hlavicka {
+display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.2);
+}
+header h1 {
+font-size: 80px;
+}
+header div div {
+font-size: 25px;
+padding-top: 275px;
+}
+body {
+background-color: #e2e2e2;
+display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+body h2 {
+    padding-top: 20px;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+body a {
+padding: 10px;
+}
+.menu {
+    background-color: #e2e2e2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.menu p {
+    margin: 25px;
+    padding:40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: block;
+    background-color: #e21111;
+    font-size: 30px;
+}
+menu {
+    margin-top: 25px;
+    font-size: 25px;
+}
+.text-block {
+    padding: 30px;
+    width: 60%;
+    margin-left: 20%;
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+.image-block {
+   padding: 30px;
+    width: 60%;
+    height: 50vh;
+    margin-left: 20%;
+    margin-top: 50px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-image: url(lord.avif);
+    position:relative;
+}
+.image-block_content {
+    background-color: black;
+    width: 80px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 20px;
+    left: 24%; 
+    transition: 0.2s;
+}
+.image-block_content p {
+    font-size: 18px;
+}
+.image-block_content:hover {
+    background-color: white;
+    width: 160px;
+    height: 80px;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 10px;
+    left: 20%; 
+}
+.image-block_content p:hover {
+    font-size: 36px;    
+}
